@@ -1,6 +1,20 @@
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
-[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] ----> root 
+Her düğümün solundaki koldan ulaşılabilecek bütün verilerin düğümün değerinden küçük olması gerekir.
+Her düğümün sağ kolundan ulaşılabilecek verilerin değerinin o düğümün değerinden büyük olması gerekir.
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] ----> root 7 
+
+                                                            7		7'den küçük olan 5 , 7'nin soluna ; 		
+                                                         /     \		7'den büyük olan 8 , 7'nin sağına 	
+                                                       5         8		
+                                                      /   \	       \	            5'den küçük olan 1 , 5'in soluna ; 5'den büyük olan 6 sağına;
+                                                     1      6        9              8'den büyük olan 9,8'in sağına
+                                                   /   \							
+                                                 0       3						
+                                                /         \			1'den küçük olan 0 , 1'in soluna ; 1'den büyük olan 3 sağına	
+                        	           2	4	            0'dan küçük olan 2 , 0'ın soluna
+                                                                                    3'den büyük olan 4, 4'ün sağına
 
             
             
